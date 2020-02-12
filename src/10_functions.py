@@ -3,10 +3,14 @@
 # YOUR CODE HERE
 
 # Read a number from the keyboard
-num = input("Enter a number: ")
-num = int(num)
+num = int(input("Enter a number: "))
+
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
-
+def is_even(num):
+    if num % 2 == 0:
+        return "Even!"
+    else:
+        return "Odd"
 # YOUR CODE HERE
 
